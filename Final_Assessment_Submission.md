@@ -18,7 +18,7 @@ The project demonstrates a successful trade-off between model complexity and cla
 ### 2.1 The Prunable Architecture
 The network is built using custom `PrunableLinear` and `PrunableConv2d` layers. Each weight in these layers is associated with a learnable `gate_score`. 
 
-*   **Gating Function:** $\text{gate} = \sigma(\text{gate\_score})$
+*   **Gating Function:** $\text{gate} = \sigma(\text{gate\\_score})$
 *   **Effective Weight:** $w_{\text{pruned}} = w_{\text{original}} \cdot \text{gate}$
 
 This mechanism ensures that the network can explicitly learn to "turn off" specific weights. Gradients flow through both the standard weights and the gate scores, allowing the optimizer to adjust the model's architecture.
