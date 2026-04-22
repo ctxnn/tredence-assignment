@@ -1,6 +1,6 @@
 # Case Study Submission: Self-Pruning Neural Network
 **Role:** Python AI Engineer Intern  
-**Candidate:** [Your Name]  
+**Candidate:** Chirag Taneja 
 **Repository:** [https://github.com/ctxnn/tredence-assignment](https://github.com/ctxnn/tredence-assignment)
 
 ---
